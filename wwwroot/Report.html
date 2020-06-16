@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Case 2 Reports</title>
+    <link href="../lib/bootstrap/dist/css/bootstrap.css" rel="style" />
+    <link href="../lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1" />
+</head>
+<body style="background-image:url(img/background4.jpg)">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Case #2</a>
+        <a class="navbar-brand" href="#">v2.0</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/home.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/employee.html">Employees</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/calls.html">Calls</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link active" href="/Report.html">Reports</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <img class="img-fluid d-block mx-auto" src="/img/buis2.png" alt="buisness image" />
+        </div>
+    </div>
+    <div class="text-center">
+        <h1>Help Desk</h1>
+        <div class="text-center">v2.0</div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-8">
+                <input type="button" class="btn btn-secondary" style="background-color: darkcyan" value="Employees Report" id="epdflist"/>
+                <input type="button" class="btn btn-secondary" style="background-color: tomato" value="Calls Report" id="cpdflist" />
+            </div>
+        </div>
+    </div>
+    <script src="../lib/jquery/dist/jquery.min.js"></script>
+    <script src="../lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/reports.js"></script>
+</body>
+</html>
