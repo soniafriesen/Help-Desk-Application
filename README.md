@@ -1,2 +1,2 @@
 # Client-Server-Developemt
-Case Study 2 Project
+MVC using C#, ASP.Net, Microsoft SQL Server, and standard html. 
